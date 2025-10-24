@@ -1,0 +1,21 @@
+manifest:
+  defaults:
+    remote: upstream
+
+  remotes:
+    - name: upstream
+      url-base: git@github.com:P-Fly/
+
+  projects:
+    - name: applications
+      repo-path: embedded_device_applications
+      path: applications
+      revision: master
+    - name: embedded_device_sw
+      repo-path: embedded_device_sw
+      path: embedded_device_sw
+      revision: master
+    - name: bsp
+      repo-path: embedded_device_bsp_windows
+      path: bsp
+      revision: master
